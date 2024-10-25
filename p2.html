@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+    background-image: url(https://images.unsplash.com/photo-1528460033278-a6ba57020470?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fExvZ2luJTIwcGFnZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;}
+
+.login-container {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 2rem;
+    min-height: 50vh;
+    width: 50%;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 50px;}
+
+button[type="submit"]{
+    background-color: rgb(206, 240, 15);
+    border: none;
+    width: 25%;
+    height: 40px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+    button[type="submit"]:hover{
+    background-color: darkcyan;
+}
+
+    input{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);  }
+
+    p{
+        color: #000000;}
+    a{
+        color: #000000;
+        text-decoration: none;}
+    a:hover{
+        color: blue;}
+
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>ScholarHub</h1>
+        <h2>Create an Account</h2>
+        <form action="p3.html">
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+            </div>
+            <br>
+                <button type="submit">Login</a></button> 
+                <p>Already have an account? <a href="p2,3.html">Sign in</a></p>
+            </form>
+            
+        </form>
+    </div>
+</body>
+</html>

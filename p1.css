@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.section-1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 0 0;
+    padding-top: 50px;
+}
+.section-1 nav{
+    display: flex;
+    justify-self: space-between;
+    align-items: center;
+}
+.section-1 nav .logo{
+    font-size: 60px;
+    padding-left: 100px;
+    
+}
+.section-1 nav .logo .dot{
+    color: black;
+    font-size: 45px;
+}
+.section-1 nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+.section-1 nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-weight: bold  ;
+}
+.section-1 nav ul li a:hover{
+    color: blue;
+}
+.section-1 nav ul li .btn-1{
+    border: 1px solid red;
+    color: red;
+    padding: 9px 15px
+}
+.section-1 nav ul li .btn-1:hover{
+    color: aliceblue;
+    background: red;
+}
+.section-1 .container-1{
+    display: flex;
+}
+.section-1 .container-1 .contains-1{
+    margin-top: 80px;
+    
+}
+.section-1 .container-1 .contains-1 h1{
+    font-size: 50px;
+}
+.section-1 .container-1 .contains-1 p{
+    font-size: 20px;
+}
+.section-1 .container-1 .contains-1 .btn-2{
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+.section-1 .container-1 .contains-1 .btn-2 a{
+    color: aliceblue;
+    background: red;
+    padding: 12px 20px;
+}
+.section-1 .container-1 .contains-1 .btn-2 a:hover{
+    color: red;
+    border: 1px solid red;
+    background: transparent;
+}
+.section-1 .container-2 .contains-2 img{
+    width: 780px;
+    transform: translate(350px,0px)
+}
+.set .h2{
+    font-size: "30px";
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 600px;
+}
